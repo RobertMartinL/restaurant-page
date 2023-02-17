@@ -1,11 +1,35 @@
+.nav {
+    padding-top: 4px;
+    position: relative;
+    margin-right: 7rem;
+}
+
 .nav ul {
-    background-color: aqua;
     display: flex;
     float: right;
     list-style-type: none;
+    margin: auto;
+    
 }
 
-.nav ul li {
-    margin: 1.2rem;
+.nav ul li button {
     text-decoration: none;
+    /* margin-right: 8rem; */
+    font-size: larger;
+    padding-top: 3.2rem;
+    padding-bottom: 3.2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    color: rgb(191, 4, 4);
+    background-color: white;
+    transition: all 400ms ease;
+}
+
+.nav ul li button:hover {
+    background: linear-gradient(rgba(191, 4, 4, 0.308), rgb(191, 4, 4));
+    /* background-color: rgb(191, 4, 4); */
+    color: white;
+    transition: all 400ms ease;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }

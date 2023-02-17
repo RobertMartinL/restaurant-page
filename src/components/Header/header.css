@@ -1,4 +1,17 @@
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    min-height: 7rem;
+}
+
+.logoImg {
+    margin-left: 7rem;
+    height: 8rem;
+}
+
+.redBar{
+    height: 0.2rem;
+    background-color: rgb(191, 4, 4);
 }

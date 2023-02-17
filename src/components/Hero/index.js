@@ -1,10 +1,10 @@
 import React from 'react'
-import burgerHero from '../../assets/burgerHero'
+import burgerHero from '../../assets/burgerHero.jpg'
 
 const Hero = () => {
   return (
     <div>
-        <img src='burgerHero' alt='Hamburger on a skillet'>
+        <img className='heroImg' src={burgerHero} alt='Hamburger on a skillet'/>
     </div>
   )
 }
