@@ -3,7 +3,7 @@ import burgerHero from '../../assets/burgerHero.jpg'
 
 const Hero = () => {
   return (
-    <div>
+    <div className='heroContainer'>
         <img className='heroImg' src={burgerHero} alt='Hamburger on a skillet'/>
     </div>
   )
