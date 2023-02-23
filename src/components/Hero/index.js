@@ -5,8 +5,7 @@ import './hero.css'
 const Hero = () => {
   return (
     <div className='heroContainer'>
-        <img className='heroImg' src={burgerHero} alt='Hamburger on a skillet'/>
-        <div className='overlay'></div>
+      <div className='hero'></div>
     </div>
   )
 }
