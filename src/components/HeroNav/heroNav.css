@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    width: 100vw;
+    height: 150px;
+    background-color: purple;
+}
+
+.container > ul {
+    list-style-type: none;
+    display: flex;
+    /* margin: auto; */
+    justify-items: center;
+}
+
+.miniHero {
+    width: 200px;
+    height: 120px;
+    background-color: yellow;
+    border-color: black;
+    border: 2px;
+    border-style: solid;
+}

@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@700&family=Roboto:wght@300;400&display=swap');
+
 .nav {
     padding-top: 4px;
-    position: relative;
     margin-right: 7rem;
+    display: flex;
 }
 
 .nav ul {
@@ -9,20 +11,22 @@
     float: right;
     list-style-type: none;
     margin: auto;
-    
+    justify-content: space-between;
 }
 
 .nav ul li button {
     text-decoration: none;
     /* margin-right: 8rem; */
     font-size: larger;
-    padding-top: 3.2rem;
-    padding-bottom: 3.2rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     color: rgb(191, 4, 4);
     background-color: white;
     transition: all 400ms ease;
+    justify-content: space-between;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .nav ul li button:hover {
@@ -30,6 +34,8 @@
     /* background-color: rgb(191, 4, 4); */
     color: white;
     transition: all 400ms ease;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
+    border-radius: 1rem;
+    /* border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem; */
 }
+
