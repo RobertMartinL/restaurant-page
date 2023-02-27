@@ -1,16 +1,7 @@
-.heroImg {
-    width: 100%;
-    object-fit: cover;
-    z-index: 1;
-    display: flex;
-    filter: brightness(60%);
-}
-
 .heroContainer {
     position: relative;
     width: 100vw;
     height: 75vh;
-    z-index: 1;
 }
 
 .hero {
@@ -19,7 +10,7 @@
     background-size: cover;
     background-position: center;
     height: 75vh;
-    filter: brightness(60%);;
+    filter: brightness(60%);
 }
 
 .heroText {

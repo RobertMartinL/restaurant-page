@@ -1,5 +1,30 @@
-.container {
+.eventsContainer {
+    position: relative;
     width: 100vw;
     height: 75vh;
-    background-color: red;
+}
+
+.eventsHero {
+    background-image: url(../../assets/lights.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+    filter: brightness(60%);
+}
+
+.heroText {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    margin: 1rem;
 }

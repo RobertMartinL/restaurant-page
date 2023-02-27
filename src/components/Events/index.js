@@ -1,8 +1,11 @@
 import React from 'react'
+import './events.css'
 
 const Events = () => {
   return (
-    <div className='container'>Events</div>
+    <div className='eventsContainer'>
+      <div className='eventsHero'>Hero</div>
+    </div>
   )
 }
 
