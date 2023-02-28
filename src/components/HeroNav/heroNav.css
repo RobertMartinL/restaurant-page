@@ -1,22 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .container {
     display: flex;
     width: 100vw;
     height: 150px;
     background-color: purple;
+    position: relative;
+    
 }
 
 .container > ul {
     list-style-type: none;
     display: flex;
-    /* margin: auto; */
-    justify-items: center;
+    width: 100vw;
+    margin: auto;
+    position: absolute;
+    top: -40%;
 }
 
 .miniHero {
-    width: 200px;
+    width: 20%;
     height: 120px;
     background-color: yellow;
-    border-color: black;
-    border: 2px;
+    border: 3px;
     border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+    margin: auto;
+}
+
+#happyHour {
+    background-image: url(../../assets/tap.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+#featured {
+    background-image: url(../../assets/tacos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+#events {
+    background-image: url(../../assets/cheers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+a {
+    width: 100%;
+    color: white;
+    font-size: larger;
+    margin: none;
+    position: relative;
+}
+
+a h2 {
+    position: absolute;
+    background-color: rgba(180, 180, 180, 0.616);
+    border-style: solid none;
+    border-width: 1px;
+    width: 100%;
+    margin: 0;
+    top: 35%;
 }

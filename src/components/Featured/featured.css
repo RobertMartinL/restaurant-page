@@ -1,11 +1,11 @@
-.heroContainer {
+.featuredContainer {
     position: relative;
     width: 100vw;
     height: 75vh;
 }
 
-.hero {
-    background-image: url(../../assets/tap.jpg);
+.featuredHero {
+    background-image: url(../../assets/tacos.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

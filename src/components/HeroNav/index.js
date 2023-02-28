@@ -6,11 +6,14 @@ const HeroNav = () => {
   return (
     <div className='container'>
         <ul>
-            <li className='miniHero'>
-                <Link to='/'>happyHour</Link>
+            <li className='miniHero' id='happyHour'>
+                <Link to='/'><h2>HappyHour</h2></Link>
             </li>
-            <li className='miniHero'>
-                <Link to='/Events'>Events</Link>
+            <li className='miniHero' id='featured'>
+                <Link to='/Featured'><h2>Featured</h2></Link>
+            </li>
+            <li className='miniHero' id='events'>
+                <Link to='/Events'><h2>Events</h2></Link>
             </li>
         </ul>
     </div>
