@@ -3,9 +3,9 @@ import './App.css';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Events from './components/Events';
-import HeroNav from './components/HeroNav';
 import Featured from './components/Featured';
-
+import About from './components/About';
+import Menu from './components/Menu';
 
 function App() {
   return (
@@ -16,7 +16,10 @@ function App() {
         <Route path="/Events" element={<Events/>} />
         <Route path="/Featured" element={<Featured/>} />
       </Routes>
-      <HeroNav/>
+      <Routes>
+        <Route path="About" element={<About/>} />
+        <Route path="Menu" element={<Menu/>} />
+      </Routes>
     </>
   );
 }
