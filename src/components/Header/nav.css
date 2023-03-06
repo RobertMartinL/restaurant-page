@@ -22,7 +22,7 @@
     padding-bottom: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
-    color: rgb(191, 4, 4);
+    color: rgb(105, 104, 104);
     background-color: white;
     transition: all 400ms ease;
     justify-content: space-between;
@@ -30,12 +30,10 @@
 }
 
 .nav ul li button:hover {
-    background: linear-gradient(rgba(191, 4, 4, 0.308), rgb(191, 4, 4));
+    background: linear-gradient(rgba(191, 4, 4, 0.61), rgb(191, 4, 4));
     /* background-color: rgb(191, 4, 4); */
     color: white;
     transition: all 400ms ease;
     border-radius: 1rem;
-    /* border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem; */
 }
 

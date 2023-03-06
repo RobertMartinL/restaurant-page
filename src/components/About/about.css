@@ -1,6 +1,36 @@
-.ourMission {
+.storyImage {
+    width: 100vw;
+    height: 60vh;
     background-image: url(../../assets/riverwalk.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroTextStory {
+    color: white;
+    font-size: 5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.story {
+
+}
+
+.story > h1 {
+    color: rgb(92, 93, 94);
+    text-align: center;
+    margin: 2rem;
+}
+
+.story > h3 {
+    color: rgb(92, 93, 94);
+    text-align: center;
+    margin: 2rem;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 3rem;
 }

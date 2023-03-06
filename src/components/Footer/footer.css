@@ -1,0 +1,36 @@
+.footerContainer {
+    width: 100vw;
+    background-color: rgb(191, 4, 4);
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footerNav {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.footerLeft {
+    /* display: flex;; */
+    justify-content: center;
+    padding: 1rem;
+    justify-content: space-around;
+}
+
+.footerRight {
+    margin-top: 3.4rem;
+    width: 6rem;
+    display: flex;
+}
+
+.footerRight > ul {
+    justify-content: space-between;
+}
+
+.footerRight > a {
+    color: black;
+}
