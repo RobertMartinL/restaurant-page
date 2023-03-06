@@ -18,9 +18,12 @@ const Footer = () => {
                 </ul>
             </div>
             <div className='footerRight'>
-                <a href="https://www.linkedin.com/in/robert-martin-400584244/"><BsLinkedin/></a>
-                <a href="https://instagram.com"><FiInstagram/></a>
-                <a href="https://github.com/robertmartinl"><FaGithub/></a>
+                <div className='socials'>
+                    <a href="https://www.linkedin.com/in/robert-martin-400584244/"><BsLinkedin/></a>
+                    <a href="https://instagram.com"><FiInstagram/></a>
+                    <a href="https://github.com/robertmartinl"><FaGithub/></a>
+                </div>
+                <div className='createdBy'>created by Robert Martin</div>
             </div>
         </div>
     </div>

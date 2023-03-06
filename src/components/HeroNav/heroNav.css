@@ -8,7 +8,8 @@
     display: flex;
     width: 100vw;
     height: 150px;
-    background-color: rgb(208, 208, 208);
+    /* background-color: rgb(208, 208, 208); */
+    background-color: antiquewhite;
     position: relative;
     
 }
@@ -66,7 +67,8 @@ a {
 
 a h2 {
     position: absolute;
-    background-color: rgba(180, 180, 180, 0.616);
+    /* background-color: rgba(180, 180, 180, 0.616); */
+    background-color: rgba(250, 235, 215, 0.622);
     border-style: solid none;
     border-width: 1px;
     width: 100%;

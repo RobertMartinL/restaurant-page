@@ -1,6 +1,6 @@
 .footerContainer {
     width: 100vw;
-    background-color: rgb(191, 4, 4);
+    background-color: rgb(210, 206, 206);
     height: 8rem;
     display: flex;
     justify-content: center;
@@ -22,15 +22,25 @@
 }
 
 .footerRight {
-    margin-top: 3.4rem;
-    width: 6rem;
-    display: flex;
+    margin-top: 3rem;
+    width: fit-content;
+    /* display: flex; */
 }
 
 .footerRight > ul {
     justify-content: space-between;
 }
 
-.footerRight > a {
+.socials {
+    display: flex;
+    justify-content: space-between;
+}
+
+.socials > a {
     color: black;
+    width: fit-content;
+}
+
+.createdBy {
+    font-size: 12px;
 }
