@@ -7,6 +7,7 @@ import Featured from './components/Featured';
 import About from './components/About';
 import Menu from './components/Menu';
 import Footer from './components/Footer'
+import LocationDetails from "./components/LocationDetails";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Routes>
         <Route path="About" element={<About/>} />
         <Route path="Menu" element={<Menu/>} />
+        <Route path="LocationDetails" element={<LocationDetails/>} />
       </Routes>
       <Footer/>
     </>

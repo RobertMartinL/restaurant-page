@@ -1,0 +1,17 @@
+.detailsContainer {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hours {
+    width: 30%;
+    height: 30vw;
+    background-color: aqua;
+}
+
+.location {
+    width: 30%;
+    height: 30vw;
+    background-color: aqua;
+}

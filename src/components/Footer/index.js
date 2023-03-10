@@ -1,7 +1,7 @@
 import React from 'react';
-import {BsLinkedin} from 'react-icons/bs'
-import {FiInstagram} from 'react-icons/fi'
-import {FaGithub} from 'react-icons/fa'
+import {BsLinkedin} from 'react-icons/bs';
+import {FiInstagram} from 'react-icons/fi';
+import {FaGithub} from 'react-icons/fa';
 import './footer.css';
 
 const Footer = () => {

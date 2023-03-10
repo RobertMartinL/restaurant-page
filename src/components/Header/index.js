@@ -1,8 +1,8 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import Nav from './Nav'
-import './header.css'
-import robLogo from '../../assets/robLogo.jpg'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import Nav from './Nav';
+import './header.css';
+import robLogo from '../../assets/robLogo.jpg';
 
 const Header = () => {
   return (
