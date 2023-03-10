@@ -38,6 +38,12 @@
 }
 
 @media all and (max-width: 768px) {
+    .nav{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    
     .nav ul{
         display: flex;
         justify-content: center;

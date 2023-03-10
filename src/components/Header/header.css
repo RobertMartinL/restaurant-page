@@ -24,4 +24,14 @@
         justify-content: center;
         flex-wrap: wrap;
     }
+
+    .logoImg {
+        margin: auto;
+    }
+
+    #logo {
+        display: flex;
+        justify-content: center;
+    }
+
 }
