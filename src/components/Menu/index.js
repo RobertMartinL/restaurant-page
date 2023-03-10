@@ -1,11 +1,13 @@
 import React from 'react';
-import { Routes, Route } from "react-router";
+import MenuSection from './MenuSection';
+import MenuNav from './MenuNav';
 import './menu.css';
 
 const Menu = () => {
   return (
     <>
-        
+        <MenuNav />
+        <MenuSection/>
     </>
   )
 }

@@ -24,7 +24,8 @@
 }
 
 .miniHero {
-    width: 20%;
+    max-width: 20%;
+    min-width: 25%;
     height: 120px;
     border: 3px;
     border-style: solid;

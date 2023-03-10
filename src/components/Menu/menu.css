@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(252, 242, 229);
+}
+
+.menuNavContainer {
+    background: rgba(84, 79, 79, 0.422);
+    width: max-content;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 1rem;
+    display: flex;
+    gap: 0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+}
+
+.menuNavContainer > a{
+    background: transparent;
+    padding: 0.9rem;
+    border-radius: 50%;
+    display: flex;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.menuContainer {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.sectionTitle{
+    font-size: 2.5rem;
+    display: block;
+}
+
+.sectionDescription{
+    font-size: 18px;
+    text-align: center;
+}
+
+.itemsContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.itemCard {
+    /* background-color: rgb(251, 251, 251); */
+    background-color: white;
+    width: 360px;
+    height: 400px;
+    margin: 25px;
+    padding: 20px;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(191, 4, 4);
+}
+
+.foodItemImg {
+    height: 200px;
+    width: 150px;
+    margin: 15px;
+}
+
+.center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.subcard {
+    margin: 10px;
+    /* background-color: red; */
+    text-align: center;
+}
+
+.subcard > h3 {
+    margin: 15px;
+    min-height: 2rem;
+}
+
+.itemName {
+    min-height: 20rem;
+}
+
+.description {
+    font-size: 12px;
+}
