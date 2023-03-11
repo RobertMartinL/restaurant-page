@@ -7,8 +7,12 @@
     min-height: 7rem;
 }
 
+#logo {
+    max-width: fit-content;
+}
+
 .logoImg {
-    margin-left: 10%;
+    margin-left: 7rem;
     height: 8rem;
 }
 
@@ -32,6 +36,7 @@
     #logo {
         display: flex;
         justify-content: center;
+        margin: 1rem;
     }
 
 }

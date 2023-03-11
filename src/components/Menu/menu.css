@@ -47,7 +47,7 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 80%;
+    width: 60rem;
 }
 
 .itemCard {
@@ -92,4 +92,10 @@ body {
 
 .description {
     font-size: 12px;
+}
+
+@media all and (max-width: 768px) {
+    .menuNavContainer a {
+        font-size: 14px;
+    }
 }
