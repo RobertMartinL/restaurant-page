@@ -57,7 +57,7 @@ body {
     height: 400px;
     margin: 25px;
     padding: 20px;
-    border-radius: 6px;
+    border-radius: 20px;
     border-style: solid;
     border-width: 1px;
     border-color: rgb(191, 4, 4);
@@ -65,8 +65,9 @@ body {
 
 .foodItemImg {
     height: 200px;
-    width: 150px;
+    width: 220px;
     margin: 15px;
+    border-radius: 5px;
 }
 
 .center {

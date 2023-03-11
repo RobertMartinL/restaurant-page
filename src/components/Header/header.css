@@ -3,7 +3,8 @@
     justify-content: space-between;
     align-items: center;
     width: 100vw;
-    background-color: white;
+    /* background-color: #A56A69; */
+    background-color: #F2E2E1;
     min-height: 7rem;
 }
 
@@ -19,7 +20,7 @@
 .redBar{
     width: 100vw;
     height: 0.2rem;
-    background-color: rgb(191, 4, 4);
+    background-color: rgb(255, 21, 21);
 }
 
 @media all and (max-width: 768px) {

@@ -29,20 +29,19 @@
     padding-bottom: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    color: rgb(105, 104, 104);
-    background-color: white;
+    /* color: #F2E2E1; */
+    /* color: #A56A69; */
+    color: #352221;
+    color: black;
+
     transition: all 400ms ease;
     justify-content: space-between;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .nav ul li a:hover {
-    /* background: linear-gradient(rgba(191, 4, 4, 0.61), rgb(191, 4, 4)); */
-    /* background-color: rgb(191, 4, 4); */
-    /* color: white; */
-    
+    color: red;
     transition: all 400ms ease;
-    border-radius: 1rem;
 }
 
 @media all and (max-width: 768px) {

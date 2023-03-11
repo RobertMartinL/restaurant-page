@@ -11,7 +11,7 @@
 }
 
 .heroTextStory {
-    color: white;
+    color: #F2E2E1;
     font-size: 5rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -20,7 +20,8 @@
     width: 100vw;
     display: flex;
     justify-content: center;
-    background-color: antiquewhite;
+    /* background-color: #F2E2E1; */
+    background-color: rgb(251, 241, 227);
 }
 
 .textBox {
@@ -33,13 +34,13 @@
 }
 
 .story > h1 {
-    color: white;
+    color: #F2E2E1;
     text-align: center;
     margin: 2rem;
 }
 
 .story > h3 {
-    color: rgb(228, 228, 228);
+    color: #F2E2E1;
     /* text-align: center; */
     margin: 0;
     width: 70%;

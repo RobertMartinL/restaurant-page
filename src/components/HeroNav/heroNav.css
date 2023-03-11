@@ -9,7 +9,7 @@
     width: 100vw;
     height: 150px;
     /* background-color: rgb(208, 208, 208); */
-    background-color: antiquewhite;
+    background-color: #f2e2e164;
     position: relative;
     
 }
@@ -29,7 +29,7 @@
     height: 120px;
     border: 3px;
     border-style: solid;
-    border-color: white;
+    border-color: #F2E2E1;
     border-radius: 20px;
     margin: auto;
 }
@@ -60,6 +60,7 @@
 
 a {
     width: 100%;
+    /* color: #F2E2E1; */
     color: white;
     font-size: larger;
     margin: none;
@@ -68,10 +69,11 @@ a {
 
 a h2 {
     position: absolute;
-    /* background-color: rgba(180, 180, 180, 0.616); */
-    background-color: rgba(250, 235, 215, 0.622);
+    /* background-color: #f2e2e1cf; */
+    background-color: #a56a697b;
     border-style: solid none;
     border-width: 1px;
+    border-color: #F2E2E1;
     width: 100%;
     margin: 0;
     top: 35%;
