@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/restaurant-page/static/css/main.d4ea0178.css",
+    "main.js": "/restaurant-page/static/js/main.95cc0c58.js",
+    "static/media/riverwalk.jpg": "/restaurant-page/static/media/riverwalk.0abf12571dccca787e83.jpg",
+    "static/media/tacos.jpg": "/restaurant-page/static/media/tacos.0d1a059ed76ef44b2b8c.jpg",
+    "static/media/cheers.jpg": "/restaurant-page/static/media/cheers.b7dcaade1d49485cc023.jpg",
+    "static/media/tap.jpg": "/restaurant-page/static/media/tap.37e9ca6682385cbeb7d3.jpg",
+    "static/media/robLogo.jpg": "/restaurant-page/static/media/robLogo.68e2d91796da99c5336d.jpg",
+    "index.html": "/restaurant-page/index.html",
+    "main.d4ea0178.css.map": "/restaurant-page/static/css/main.d4ea0178.css.map",
+    "main.95cc0c58.js.map": "/restaurant-page/static/js/main.95cc0c58.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4ea0178.css",
+    "static/js/main.95cc0c58.js"
+  ]
+}
