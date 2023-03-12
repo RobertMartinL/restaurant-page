@@ -1,0 +1,6 @@
+Welcome to Rob's Bar & Grill, a fictional bar and restaurant.
+
+This website is was built using react, a popular front end framework commonly utilized in the develpoment of SPA's, or single page applications.
+Though the site appears to have multiple pages, in reality the site is using part of the React library called React Router to load different parts, or components of the code depending on the specified endpoint.
+Upon loading the site, the user finds themself at the homepage to Rob's. The homepage contains a header with a navigation bar that allows the user to traverse the sites multiple "pages". The homepage also contains a large, attention-grabbing hero image that displays current company promotions and other information meant to captivate the user. Underneath the hero image are 3 large buttons that users can explore other offers, features, promotions, etc.
+At the top of the page, the user sees options About Us, Hours and Location, and Menu. The about section serves to describe how the business began and can also include a mission statement. The hours and location section contains the hours and a google maps insert on an element called an iframe, which is used to load third party websites on another website. The menu section is a full food menu organized into cards, each menu item containing an image, title of dish, and a description. 
