@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <>
       <div className='header'>
-        <Link to='/' id='logo'>
+        <Link to='/restaurant-page/' id='logo'>
           <img className='logoImg' src={robLogo} alt='Robs Bar & Grill'/>
         </Link>
           <Nav/>
