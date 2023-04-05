@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/restaurant-page/static/css/main.f3d19b88.css",
-    "main.js": "/restaurant-page/static/js/main.4b737143.js",
+    "main.css": "/restaurant-page/static/css/main.edb4e9f6.css",
+    "main.js": "/restaurant-page/static/js/main.5e1fb3a4.js",
     "static/media/riverwalk.jpg": "/restaurant-page/static/media/riverwalk.0abf12571dccca787e83.jpg",
     "static/media/tacos.jpg": "/restaurant-page/static/media/tacos.0d1a059ed76ef44b2b8c.jpg",
     "static/media/cheers.jpg": "/restaurant-page/static/media/cheers.b7dcaade1d49485cc023.jpg",
     "static/media/tap.jpg": "/restaurant-page/static/media/tap.37e9ca6682385cbeb7d3.jpg",
     "static/media/robLogo.png": "/restaurant-page/static/media/robLogo.7ab8ab4499e758ed6d9f.png",
     "index.html": "/restaurant-page/index.html",
-    "main.f3d19b88.css.map": "/restaurant-page/static/css/main.f3d19b88.css.map",
-    "main.4b737143.js.map": "/restaurant-page/static/js/main.4b737143.js.map"
+    "main.edb4e9f6.css.map": "/restaurant-page/static/css/main.edb4e9f6.css.map",
+    "main.5e1fb3a4.js.map": "/restaurant-page/static/js/main.5e1fb3a4.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3d19b88.css",
-    "static/js/main.4b737143.js"
+    "static/css/main.edb4e9f6.css",
+    "static/js/main.5e1fb3a4.js"
   ]
 }
