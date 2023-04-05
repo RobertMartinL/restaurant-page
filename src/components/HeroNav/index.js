@@ -7,7 +7,7 @@ const HeroNav = () => {
     <div className='container'>
         <ul>
             <li className='miniHero' id='happyHour'>
-                <Link to='/'><h2>HappyHour</h2></Link>
+                <Link to='/restaurant-page'><h2>HappyHour</h2></Link>
             </li>
             <li className='miniHero' id='featured'>
                 <Link to='/Featured'><h2>Featured</h2></Link>

@@ -1,7 +1,7 @@
 .footerContainer {
     width: 100vw;
     /* background-color: #A56A69; */
-    background-color: #F2E2E1;
+    background-color: #0057AB; 
     height: 12.5rem;
     display: flex;
     justify-content: center;
@@ -12,7 +12,7 @@
     display: flex;
     justify-content: space-around;
     /* color: #F2E2E1; */
-    color: #A56A69;
+    color: white;
 }
 
 .footerLeft {
@@ -39,7 +39,7 @@
 
 .socials > a {
     /* color: #F2E2E1; */
-    color: #A56A69;
+    color: white;
     width: fit-content;
 }
 

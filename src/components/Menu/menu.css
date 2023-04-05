@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(252, 242, 229);
+    /* background: linear-gradient(rgb(255, 255, 255), aliceblue); */
+    background-color: #F8F8F8; /* pale off-white */
 }
 
 .menuNavContainer {
@@ -52,7 +53,7 @@ body {
 
 .itemCard {
     /* background-color: rgb(251, 251, 251); */
-    background-color: white;
+    background: linear-gradient(rgb(208, 222, 252), rgb(120, 139, 147));
     width: 360px;
     height: 400px;
     margin: 25px;
@@ -60,7 +61,9 @@ body {
     border-radius: 20px;
     border-style: solid;
     border-width: 1px;
-    border-color: rgb(191, 4, 4);
+    /* border-color: rgb(191, 4, 4); */
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+    color: white;
 }
 
 .foodItemImg {

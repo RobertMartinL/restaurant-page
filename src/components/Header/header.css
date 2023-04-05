@@ -3,8 +3,8 @@
     justify-content: space-between;
     align-items: center;
     width: 100vw;
-    /* background-color: #A56A69; */
-    background-color: #F2E2E1;
+    /* background-color: #F2E2E1; */
+    background: linear-gradient(to bottom right, #B6D3FF, #0080FF);
     min-height: 7rem;
 }
 
