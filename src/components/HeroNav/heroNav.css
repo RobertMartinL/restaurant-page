@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -32,6 +34,8 @@
     border-color: #F2E2E1;
     border-radius: 20px;
     margin: auto;
+    font-family: 'bangers';
+    color: red;
 }
 
 #happyHour {
@@ -61,8 +65,8 @@
 a {
     width: 100%;
     /* color: #F2E2E1; */
-    color: white;
-    font-size: larger;
+    color: rgb(229, 36, 36);
+    font-size: 1.2rem;
     margin: none;
     position: relative;
 }
@@ -70,7 +74,7 @@ a {
 a h2 {
     position: absolute;
     /* background-color: #f2e2e1cf; */
-    background-color: #a56a697b;
+    background-color: #dedee6b7;
     border-style: solid none;
     border-width: 1px;
     border-color: #F2E2E1;

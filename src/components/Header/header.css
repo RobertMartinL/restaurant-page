@@ -19,7 +19,7 @@
 
 .redBar{
     width: 100vw;
-    height: 0.2rem;
+    height: 1px;
     background-color: rgb(255, 21, 21);
 }
 

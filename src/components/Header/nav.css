@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@700&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
 .nav {
     padding-top: 4px;
@@ -29,14 +29,13 @@
     padding-bottom: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    /* color: #F2E2E1; */
-    /* color: #A56A69; */
-    color: #352221;
-    color: black;
+    color: rgb(228, 3, 3);
 
     transition: all 400ms ease;
     justify-content: space-between;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: 'Bangers';
+    font-size: 2rem;
 }
 
 .nav ul li a:hover {
